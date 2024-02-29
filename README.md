@@ -8,12 +8,7 @@ Raw Data: loan_data_2007_2014.csv from: https://www.kaggle.com/datasets/devanshi
 
 Part 1: Preprocessing: clean the data, check for missing values, determine the dependent variable, applying coarse classing using WoE/IV for creating dummy variables
 Code: Preparation.ipynb 
-Data Stored in: 
-                - loan_data_inputs_train.csv
-                - loan_data_inputs_test.csv
-                - loan_data_targets_train.csv
-                - loan_data_targets_test.csv
-                - ref_categorie.csv
-                - loan_data_2007_2014_for_LGD_EAD.csv
+Data Stored in: loan_data_inputs_train.csv || loan_data_inputs_test.csv || loan_data_targets_train.csv || loan_data_targets_test.csv || ref_categorie.csv || loan_data_2007_2014_for_LGD_EAD.csv
 
-                ****************** TO DO: dummy in all files FACk
+Part 2: Removing the features with low statistical significance PD modelling and Validation: Building a Logistic Regression model
+Code: PD Model.ipynb
